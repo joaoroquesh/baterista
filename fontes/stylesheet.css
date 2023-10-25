@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Thin-Oblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: Thin;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: Thin;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-ExtraLight-Oblique.ttf') format('truetype');
+    font-weight: 200;
+    font-style: Extralight;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: Extralight;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Light-Oblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: light;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: light;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Regular-Oblique.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: Medium;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Medium-Oblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: Medium;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-SemiBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: Semibold;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-SemiBold-Oblique.ttf') format('truetype');
+    font-weight: 700;
+    font-style: Semibold;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Bold-Oblique.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: Extrabold;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-ExtraBold-Oblique.ttf') format('truetype');
+    font-weight: 800;
+    font-style: Extrabold;
+    font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: Black;
+font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten/Causten-Black-Oblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: Black;
+    font-style: italic;
+font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: url('TuskerGrotesk/TuskerGrotesk-4600Semibold.otf') format('opentype');
+    font-weight: 500;
+    font-style:normal;
+    font-display: swap;
+}
+
+

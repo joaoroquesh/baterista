@@ -1,0 +1,572 @@
+
+:root{
+
+  --primary-light:#f36033;
+  --primary:#e94d1f;
+  --primary-dark:#b83d20;
+
+  --primary-transparency:#e94d1f80;
+
+  --secondary-light:#505050;
+  --secondary:#444444;
+  --secondary-dark:#373737;
+
+  --secondary-transparency:#44444480;
+
+  --tertiary-light:#d9d9d9;
+  --tertiary:#cecece;
+  --tertiary-dark:#bbbbbb;
+
+  --tertiary-transparency:#cecece80;
+
+  --accent-light:#f06c2a;
+  --accent:#eb601b;
+  --accent-dark:#d5500e;
+
+  --accent-transparency:#eb601b80;
+  
+  --light:#f58248;
+  --light-transparency:#f5824880;
+  --dark:#202020;
+  --dark-transparency:#0e0e0e80;
+  --branco:#fff;
+  --branco-transparency:#ffffff80;
+
+  --cinza:#cad0d0;
+
+
+}
+  $primary-light:var(--primary-light);
+  $primary:var(--primary);
+  $primary-dark:var(--primary-dark);
+  
+  $primary-transparency:var(--primary-transparency);
+
+  $secondary-light:var(--secondary-light);
+  $secondary:var(--secondary);
+  $secondary-dark:var(--secondary-dark);
+
+  $secondary-transparency:var(--secondary-transparency);
+
+  $tertiary-light:var(--tertiary-light);
+  $tertiary:var(--tertiary);
+  $tertiary-dark:var(--tertiary-dark);
+
+  $tertiary-transparency:var(--tertiary-transparency);
+
+  $accent-light:var(--accent-light);
+  $accent:var(--accent);
+  $accent-dark:var(--accent-dark);
+
+  $accent-transparency:var(--accent-transparency);
+  
+  $light:var(--light);
+  $light-transparency:var(--light-transparency);
+  $dark:var(--dark);
+  $dark-transparency:var(--dark-transparency);
+  $branco:var(--branco);
+  $branco-transparency:var(--branco-transparency);
+  
+  $cinza:var(--cinza);
+
+
+/* 
+--------------------------------
+GERAIS
+--------------------------------
+*/
+
+*{
+  transition: all .3s ease-in-out;
+}
+
+html{
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Causten', sans-serif;
+
+}
+
+// FONTES
+.ft-primary{
+  font-family: 'Causten', sans-serif!important;
+}
+.ft-secondary{
+  font-family: 'Tusker Grotesk', sans-serif!important;
+}
+/* COR DAS FONTES */
+.c{
+  
+  &-primary{
+    color:$primary!important;
+    &-light{
+      color:$primary-light!important;
+    }
+    &-dark{
+      color:$primary-dark!important;
+    }
+    &-transparency{
+      color:$primary-transparency!important;
+    }
+  }
+
+  &-secondary{
+    color:$secondary!important;
+    &-light{
+      color:$secondary-light!important;
+    }
+    &-dark{
+      color:$secondary-dark!important;
+    }
+    &-transparency{
+      color:$secondary-transparency!important;
+    }
+  }
+
+  &-tertiary{
+    color:$tertiary!important;
+    &-light{
+      color:$tertiary-light!important;
+    }
+    &-dark{
+      color:$tertiary-dark!important;
+    }
+    &-transparency{
+      color:$tertiary-transparency!important;
+    }
+  }
+
+  &-accent{
+    color:$accent!important;
+    &-light{
+      color:$accent-light!important;
+    }
+    &-dark{
+      color:$accent-dark!important;
+    }
+    &-transparency{
+      color:$accent-transparency!important;
+    }
+  }
+
+  &-light{
+    color:$light!important;
+    &-transparency{
+      color:$light-transparency!important;
+    }
+  }
+  &-dark{
+    color:$dark!important;
+    &-transparency{
+      color:$dark-transparency!important;
+    }
+  }
+  &-branco{
+    color:$branco!important;
+    &-transparency{
+      color:$branco-transparency!important;
+    }
+  }
+
+  &-cinza{
+    color:$cinza!important;
+  }
+  
+}
+
+/* COR DOS FUNDOS */
+.bg{
+
+  &-primary{
+    background-color:$primary!important;
+    &-light{
+      background-color:$primary-light!important;
+    }
+    &-dark{
+      background-color:$primary-dark!important;
+    }
+    &-transparency{
+      background-color:$primary-transparency!important;
+    }
+  }
+
+  &-secondary{
+    background-color:$secondary!important;
+    &-light{
+      background-color:$secondary-light!important;
+    }
+    &-dark{
+      background-color:$secondary-dark!important;
+    }
+    &-transparency{
+      background-color:$secondary-transparency!important;
+    }
+  }
+
+  &-tertiary{
+    background-color:$tertiary!important;
+    &-light{
+      background-color:$tertiary-light!important;
+    }
+    &-dark{
+      background-color:$tertiary-dark!important;
+    }
+    &-transparency{
+      background-color:$tertiary-transparency!important;
+    }
+  }
+
+  &-accent{
+    background-color:$accent!important;
+    &-light{
+      background-color:$accent-light!important;
+    }
+    &-dark{
+      background-color:$accent-dark!important;
+    }
+    &-transparency{
+      background-color:$accent-transparency!important;
+    }
+  }
+
+  &-light{
+    background-color:$light!important;
+    &-transparency{
+      background-color:$light-transparency!important;
+    }
+  }
+  &-dark{
+    background-color:$dark!important;
+    &-transparency{
+      background-color:$dark-transparency!important;
+    }
+  }
+  &-branco{
+    background-color:$branco!important;
+    &-transparency{
+      background-color:$branco-transparency!important;
+    }
+  }
+
+  &-cinza{
+    background-color:$cinza!important;
+  }
+  
+}
+
+/* COR DA BORDA */
+/* PESO DA BORDA */
+.border{
+  &-primary{
+    border-color:$primary!important;
+    &-light{
+      border-color:$primary-light!important;
+    }
+    &-dark{
+      border-color:$primary-dark!important;
+    }
+    &-transparency{
+      border-color:$primary-transparency!important;
+    }
+  }
+
+  &-secondary{
+    border-color:$secondary!important;
+    &-light{
+      border-color:$secondary-light!important;
+    }
+    &-dark{
+      border-color:$secondary-dark!important;
+    }
+    &-transparency{
+      border-color:$secondary-transparency!important;
+    }
+  }
+
+  &-tertiary{
+    border-color:$tertiary!important;
+    &-light{
+      border-color:$tertiary-light!important;
+    }
+    &-dark{
+      border-color:$tertiary-dark!important;
+    }
+    &-transparency{
+      border-color:$tertiary-transparency!important;
+    }
+  }
+
+  &-accent{
+    border-color:$accent!important;
+    &-light{
+      border-color:$accent-light!important;
+    }
+    &-dark{
+      border-color:$accent-dark!important;
+    }
+    &-transparency{
+      border-color:$accent-transparency!important;
+    }
+  }
+
+  &-light{
+    border-color:$light!important;
+    &-transparency{
+      border-color:$light-transparency!important;
+    }
+  }
+  &-dark{
+    border-color:$dark!important;
+    &-transparency{
+      border-color:$dark-transparency!important;
+    }
+  }
+  &-branco{
+    border-color:$branco!important;
+    &-transparency{
+      border-color:$branco-transparency!important;
+    }
+  }
+  
+  
+  &-1{
+    border-style:solid; 
+    border-width: 1px;
+  }
+  &-2{
+    border-style:solid; 
+    border-width: 2px;
+  }
+  &-3{
+    border-style:solid; 
+    border-width: 3px;
+  }
+  &-4{
+    border-style:solid; 
+    border-width: 4px;
+  }
+  &-5{
+    border-style:solid; 
+    border-width: 5px;
+  }
+
+  &-radius{
+    &-05{
+    border-radius: .5rem;
+    }
+    &-075{
+      border-radius: .75rem;
+    }
+    &-1{
+      border-radius: 1rem;
+    }
+    &-15{
+      border-radius: 1.5rem;
+    }
+    &-2{
+      border-radius: 2rem;
+    }
+    &-25{
+      border-radius: 2.5rem;
+    }
+  }
+}
+
+/* PESO DAS FONTES */
+.fw{
+
+  &-100{
+    font-weight: 100!important;
+  }
+  &-200{
+    font-weight: 200!important;
+  }
+  &-300{
+    font-weight: 300!important;
+  }
+  &-400{
+    font-weight: 400!important;
+  }
+  &-500{
+    font-weight: 500!important;
+  }
+  &-600{
+    font-weight: 600!important;
+  }
+  &-700{
+    font-weight: 700!important;
+  }
+  &-800{
+    font-weight: 800!important;
+  }
+  &-900{
+    font-weight: 900!important;
+  }
+}
+
+/* PESO DAS FONTES */
+.fs{
+  &-08{
+    font-size: .8rem!important;
+  }
+  &-100{
+    font-size: 1rem!important;
+  }
+  &-125{
+    font-size: 1.25rem!important;
+  }
+  &-150{
+    font-size: 1.5rem!important;
+  }
+  &-175{
+    font-size: 1.75rem!important;
+  }
+  &-200{
+    font-size: 2rem!important;
+  }
+  &-225{
+    font-size: 2.25rem!important;
+  }
+  &-250{
+    font-size: 2.5rem!important;
+  }
+  &-275{
+    font-size: 2.75rem!important;
+  }
+  &-300{
+    font-size: 3rem!important;
+  }
+  &-400{
+    font-size: 4rem!important;
+  }
+  &-500{
+    font-size: 5rem!important;
+  }
+}
+
+/* ALINHAMENTO */
+.center{
+  &-s{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  &-v{
+    display: flex;
+    align-items: center;
+  }
+  &-h{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+/* FILL */
+
+.fill{
+  &-primary{
+    fill:$primary!important;
+    &-light{
+      fill:$primary-light!important;
+    }
+    &-dark{
+      fill:$primary-dark!important;
+    }
+    &-transparency{
+      fill:$primary-transparency!important;
+    }
+  }
+
+  &-secondary{
+    fill:$secondary!important;
+    &-light{
+      fill:$secondary-light!important;
+    }
+    &-dark{
+      fill:$secondary-dark!important;
+    }
+    &-transparency{
+      fill:$secondary-transparency!important;
+    }
+  }
+
+  &-tertiary{
+    fill:$tertiary!important;
+    &-light{
+      fill:$tertiary-light!important;
+    }
+    &-dark{
+      fill:$tertiary-dark!important;
+    }
+    &-transparency{
+      fill:$tertiary-transparency!important;
+    }
+  }
+
+  &-accent{
+    fill:$accent!important;
+    &-light{
+      fill:$accent-light!important;
+    }
+    &-dark{
+      fill:$accent-dark!important;
+    }
+    &-transparency{
+      fill:$accent-transparency!important;
+    }
+  }
+
+  &-light{
+    fill:$light!important;
+    &-transparency{
+      fill:$light-transparency!important;
+    }
+  }
+  &-dark{
+    fill:$dark!important;
+    &-transparency{
+      fill:$dark-transparency!important;
+    }
+  }
+  &-branco{
+    fill:$branco!important;
+    &-transparency{
+      fill:$branco-transparency!important;
+    }
+  }
+}
+
+/* WIDTH */
+.w-{
+  
+  &fit-content{
+    width: fit-content;
+  }
+}
+
+/* HEIGTH */
+.h-{
+  
+  &100{
+    height: 100%;
+  }
+  &100-v{
+    height: 100vh;
+  }
+
+
+  &fit-content{
+    height: fit-content!important;
+  }
+}
+
+.nowrap{
+  white-space: nowrap;
+}
