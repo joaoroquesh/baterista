@@ -316,7 +316,7 @@ body {
 }
 #vendas .polaroid {
   border: 1rem solid var(--branco);
-  transform: rotate(2deg) scale(1);
+  transform: rotate(2deg) scale(0.9);
 }
 #vendas .title {
   font-size: calc(3rem + 1.5vw);
